@@ -48,24 +48,24 @@ public class Main {
         deposit = 15000;
         pocket = 0;
         percent = 0.07f;
-        int monthDeposit = 0;
+        month = 0;
         while (pocket < 12_000_000) {
-            monthDeposit++;
+            month++;
             pocket += deposit + (pocket + deposit) * percent;
-            if (monthDeposit % 6 == 0) {
-                System.out.println("За " + monthDeposit + " месяц сумма накоплений равна " + pocket + " рублей.");
+            if (month % 6 == 0) {
+                System.out.println("За " + month + " месяц сумма накоплений равна " + pocket + " рублей.");
             }
         }
         System.out.println("Задание 6");
         deposit = 15000;
         pocket = 0;
         percent = 0.07f;
-        monthDeposit = 0;
-        while (monthDeposit < 108) {
-            monthDeposit++;
+        month = 0;
+        while (month < 108) {
+            month++;
             pocket += deposit + (pocket + deposit) * percent;
-            if (monthDeposit % 6 == 0) {
-                System.out.println("За " + monthDeposit + " месяц сумма накоплений равна " + pocket + " рублей.");
+            if (month % 6 == 0) {
+                System.out.println("За " + month + " месяц сумма накоплений равна " + pocket + " рублей.");
             }
         }
         System.out.println("Задание 7");
@@ -82,7 +82,6 @@ public class Main {
             if (i > lastYear && i < nextYear) {
                 System.out.println(i);
             }
-
 
     }
 }
