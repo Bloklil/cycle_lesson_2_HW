@@ -17,10 +17,10 @@ public class Main {
             System.out.print(number2 + " ");
         }
         System.out.println(" ");
-        int number2_1 = 11;
-        while (number2_1 > 1) {
-            number2_1--;
+        int number2_1 = 10;
+        while (number2_1 > 0) {
             System.out.print(number2_1 + " ");
+            number2_1--;
         }
         System.out.println(" ");
         System.out.println("Задание 3");
