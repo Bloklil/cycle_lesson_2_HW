@@ -11,12 +11,16 @@ public class Main {
             System.out.println("Месяц " + month + ", сумма накомлений равна " + pocket + " рублей.");
         }
         System.out.println("Задание 2");
-        for (int i = 0; i < 10; i++) {
-            System.out.print(i + " ");
+        int number2 = 0;
+        while (number2 < 10) {
+            number2++;
+            System.out.print(number2 + " ");
         }
         System.out.println(" ");
-        for (int i = 10; i > 0; i--) {
-            System.out.print(i + " ");
+        int number2_1 = 11;
+        while (number2_1 > 1) {
+            number2_1--;
+            System.out.print(number2_1 + " ");
         }
         System.out.println(" ");
         System.out.println("Задание 3");
@@ -64,8 +68,10 @@ public class Main {
             }
         }
         System.out.println("Задание 7");
-        for (int i = 1; i < 31; i = i + 7) {
-            System.out.println("Сегодня пятница, " + i + " число. Необходимо подготовить отчет");
+        int friday = 5;
+        while (friday <= 31) {
+            System.out.println("Сегодня пятница, " + friday + " число. Необходимо подготовить отчет");
+            friday += 7;
         }
         System.out.println("Задание 8");
         int thisYear = 2025;
